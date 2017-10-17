@@ -1,0 +1,863 @@
+	/*common start*/
+	
+	@media screen and (min-width:1000px) and (max-width:1090px) {
+		article,
+		section,
+		.word,
+		.works,
+		.star,
+		.school {
+			margin: 0 2%;
+		}
+		section ul li {
+			width: 33%;
+		}
+		.school ul li {
+			width: 29%;
+		}
+		.works ul li {
+			width: 20%;
+		}
+		.star ul li {
+			width: 24%;
+		}
+	}
+	
+	@media screen and (min-width:720px) and (max-width:1000px) {
+		.container-2 article h1,
+		.container-2 section h1,
+		.school h1,
+		.works h1,
+		.star h1,
+		.word h1 {
+			font-size: 3.2em;
+			height: 90px;
+			font-weight: normal;
+			line-height: 90px;
+			padding-top: 10px;
+			margin-top: 10px;
+		}
+		article,
+		section,
+		.word,
+		.works,
+		.star,
+		.school {
+			margin: 0 3%;
+		}
+	}
+	
+	@media screen and (min-width:480px) and (max-width:720px) {
+		.container-2 article h1,
+		.container-2 section h1,
+		.school h1,
+		.works h1,
+		.star h1,
+		.word h1 {
+			font-size: 2.8em;
+			height: 70px;
+			font-weight: normal;
+			line-height: 70px;
+			padding-top: 0;
+			margin-top: 0;
+		}
+		article,
+		section,
+		.word,
+		.works,
+		.star,
+		.school {
+			margin: 0 4%;
+		}
+	}
+	
+	@media screen and (max-width:480px) {
+		.container-2 article h1,
+		.container-2 section h1,
+		.school h1,
+		.works h1,
+		.star h1,
+		.word h1 {
+			font-size: 2.4em;
+			height: 50px;
+			font-weight: normal;
+			line-height: 50px;
+		}
+		article,
+		section,
+		.word,
+		.works,
+		.star,
+		.school {
+			margin: 0 2%;
+		}
+	}
+	/*common END*/
+	/*article start*/
+	
+	@media screen and (min-width:720px) and (max-width:1000px) {
+		article .img_cont {
+			width: 30%;
+			padding-top: 2%;
+		}
+		article li:nth-of-type(2) .img_cont {
+			width: 24%;
+			padding-left: 18%;
+		}
+		article ul {
+			margin-left: 5%;
+		}
+		article li:hover {
+			border: none;
+		}
+		article li {
+			width: 22%;
+			padding-left: 2%;
+		}
+		article li .right {
+			padding-left: 5%;
+			width: 50%;
+		}
+		article ul li .right h3 {
+			line-height: 35px;
+			font-size: 1.6em;
+			font-family: "Microsoft YaHei";
+			color: #222;
+		}
+		article ul li .right p {
+			font-size: 1.4em;
+			line-height: 14px;
+			font-family: "Microsoft YaHei";
+			color: #888;
+			white-space: nowrap;
+			/*空白不换行*/
+			text-overflow: ellipsis;
+			/*显示省略号*/
+			overflow: hidden;
+			/*溢出：隐藏*/
+		}
+	}
+	
+	@media screen and (min-width:580px) and (max-width:720px) {
+		article .img_cont {
+			width: 40%;
+			padding-left: 10%;
+			padding-top: 1%;
+		}
+		article li:nth-of-type(2) .img_cont {
+			width: 31%;
+			padding-left: 18%;
+		}
+		article ul {
+			margin-left: 5%;
+		}
+		article li:hover {
+			border: none;
+		}
+		article li {
+			height: 74px;
+			width: 23%;
+			padding-left: 2%;
+		}
+		article li .right {
+			clear: both;
+			padding-left: 0%;
+		}
+		article ul li .right h3 {
+			line-height: 20px;
+			font-size: 1.6em;
+			font-family: "Microsoft YaHei";
+			color: #222;
+		}
+		article ul li .right p {
+			display: none;
+		}
+	}
+	
+	@media screen and (min-width:480px) and (max-width:580px) {
+		article .img_cont {
+			width: 40%;
+			padding-left: 10%;
+			padding-top: 1%;
+		}
+		article li:nth-of-type(2) .img_cont {
+			width: 31%;
+			padding-left: 18%;
+		}
+		article ul {
+			margin-left: 5%;
+		}
+		article li:hover {
+			border: none;
+		}
+		article li {
+			width: 22%;
+			padding-left: 3%;
+		}
+		article ul li .right {
+			clear: both;
+			padding-left: 17%;
+		}
+		article ul li .right h3 {
+			line-height: 20px;
+			font-size: 1.4em;
+			font-family: "Microsoft YaHei";
+			color: #222;
+		}
+		article ul li .right p {
+			display: none;
+		}
+		article li .right span {
+			display: none;
+		}
+		article li:nth-of-type(2) .right .span {
+			display: block;
+		}
+	}
+	
+	@media screen and (max-width:480px) {
+		article .img_cont {
+			width: 40%;
+			padding-left: 10%;
+			padding-top: 1%;
+		}
+		article li:nth-of-type(2) .img_cont {
+			width: 31%;
+			padding-left: 18%;
+		}
+		article ul {
+			margin-left: 5%;
+		}
+		article li:hover {
+			border: none;
+		}
+		article li {
+			width: 22%;
+			padding-left: 3%;
+		}
+		article ul li .right {
+			clear: both;
+			padding-left: 11%;
+		}
+		article ul li .right h3 {
+			line-height: 20px;
+			font-size: 1.4em;
+			font-family: "Microsoft YaHei";
+			color: #222;
+		}
+		article ul li .right p {
+			display: none;
+		}
+		article li .right span {
+			display: none;
+		}
+		article li:nth-of-type(2) .right .span {
+			display: block;
+		}
+	}
+	/*article END*/
+	/*section start*/
+	
+	@media screen and (min-width:820px) and (max-width:1000px) {
+		section ul li {
+			width: 33%;
+			height: 190px;
+		}
+		.container-2 section li .hidden-1,
+		.container-2 section li .hidden-1 p,
+		.container-2 section li .hidden-1 h2 {
+			display: none;
+		}
+	}
+	
+	@media screen and (min-width:720px) and (max-width:820px) {
+		section ul li {
+			width: 33%;
+			height: 165px;
+		}
+		.container-2 section li .hidden-1,
+		.container-2 section li .hidden-1 p,
+		.container-2 section li .hidden-1 h2 {
+			display: none;
+		}
+	}
+	
+	@media screen and (min-width:580px) and (max-width:720px) {
+		section ul li {
+			width: 33%;
+			height: 140px;
+		}
+		.container-2 section li .hidden-1,
+		.container-2 section li .hidden-1 p,
+		.container-2 section li .hidden-1 h2 {
+			display: none;
+		}
+	}
+	
+	@media screen and (min-width:380px) and (max-width:580px) {
+		section ul li {
+			width: 50%;
+			height: 140px;
+		}
+		.container-2 section li .hidden-1,
+		.container-2 section li .hidden-1 p,
+		.container-2 section li .hidden-1 h2 {
+			display: none;
+		}
+	}
+	
+	@media screen and (max-width:380px) {
+		section ul li {
+			width: 50%;
+			height: 140px;
+		}
+		.container-2 section li .hidden-1,
+		.container-2 section li .hidden-1 p,
+		.container-2 section li .hidden-1 h2 {
+			display: none;
+		}
+	}
+	/*section END*/
+	/*.school start*/
+	
+	@media screen and (min-width:720px) and (max-width:1000px) {
+		.school h1 {
+			padding-right: 53%;
+		}
+		.school li:nth-of-type(2) {
+			margin: 0 4%;
+		}
+		.school li:nth-of-type(5) {
+			margin: 0 4%;
+		}
+		.school .p-1 {
+			padding-top: 70px;
+		}
+		.school .p-1 a {
+			font-size: 1.6em;
+			color: #fa9634;
+			display: block;
+		}
+		.school ul li {
+			width: 30%;
+		}
+		.school ul li h3 {
+			line-height: 32px;
+			padding-top: 0;
+		}
+		.school ul li p {
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			overflow: hidden;
+			padding-bottom: 10px;
+		}
+	}
+	
+	@media screen and (min-width:480px) and (max-width:720px) {
+		.school h1 {
+			padding-right: 30%;
+		}
+		.school .p-1 {
+			padding-top: 50px;
+		}
+		.school ul li {
+			width: 49%;
+			padding-bottom: 15px;
+		}
+		.school ul li h3 {
+			padding-top: 0;
+			line-height: 20px;
+		}
+		.school ul li h3 a {
+			font-size: 1.6em;
+		}
+		.school ul li p {
+			display: none;
+		}
+		.school li:nth-of-type(2) {
+			margin-left: 2%;
+			margin-right: 0;
+		}
+		.school li:nth-of-type(4) {
+			margin-left: 2%;
+		}
+		.school li:nth-of-type(6) {
+			margin-left: 2%;
+		}
+		.school li:nth-of-type(5) {
+			margin: 0;
+		}
+	}
+	
+	@media screen and (max-width:480px) {
+		.school h1 {
+			padding-right: 33%;
+		}
+		.school .p-1 {
+			padding-right: 0%;
+			padding-top: 40px;
+		}
+		.school .p-1 a {
+			font-size: 1.2em;
+			color: #fa9634;
+		}
+		.school ul li {
+			width: 46%;
+			padding-bottom: 15px;
+		}
+		.school ul li h3 {
+			padding-top: 0;
+			line-height: 20px;
+		}
+		.school ul li h3 a {
+			font-size: 16px;
+		}
+		.school ul li p {
+			display: none;
+		}
+		.school li:nth-of-type(2) {
+			margin-left: 2%;
+			margin-right: 0;
+		}
+		.school li:nth-of-type(4) {
+			margin-left: 2%;
+		}
+		.school li:nth-of-type(6) {
+			margin-left: 2%;
+		}
+		.school li:nth-of-type(5) {
+			margin: 0;
+		}
+	}
+	/*.school END*/
+	/*.works start*/
+	
+	@media screen and (min-width:1040px) and (max-width:1060px) {
+		.works li .hidden-2 span {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+		.works .hidden-2 h3 {
+			padding-top: 20px;
+		}
+		.works ul li .hidden-2 {
+			height: 199px;
+		}
+	}
+	
+	@media screen and (min-width:1020px) and (max-width:1040px) {
+		.works ul li .hidden-2 {
+			height: 194px;
+		}
+		.works .hidden-2 span {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+	}
+	
+	@media screen and (min-width:1010px) and (max-width:1020px) {
+		.works ul li .hidden-2 {
+			height: 190px;
+		}
+		.works .hidden-2 span {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+	}
+	
+	@media screen and (min-width:1000px) and (max-width:1010px) {
+		.works ul li .hidden-2 {
+			height: 190px;
+		}
+		.works .hidden-2 span {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+	}
+	
+	@media screen and (min-width:720px) and (max-width:1000px) {
+		.works h1 {
+			padding-right: 53%;
+		}
+		.works ul li {
+			width: 20%;
+			display:block;
+		}
+		.works ul li:hover .hidden-2,
+		.works ul li:hover .hidden-2 h3 {
+			display: none;
+		}
+	}
+	
+	@media screen and (min-width:580px) and (max-width:720px) {
+		.works h1 {
+			padding-right: 53%;
+			padding-top: 10px;
+		}
+		.works ul li {
+			width: 30%;
+			margin-left: 2%;
+			margin-bottom: 2%;
+		}
+		.works ul li:hover .hidden-2,
+		.works ul li:hover .hidden-2 h3 {
+			display: none;
+		}
+		.works .button {
+			display: inline-block;
+			height: 40px;
+			float: right;
+			width: 50px;
+			bordeR: 1px solid #ccc;
+			color: #fff;
+			background: tan;
+			margin-right: 4%;
+		}
+		.works .button:active {
+			background: darkorange;
+		}
+		.works ul li:nth-of-type(7),
+		.works ul li:nth-of-type(8),
+		.works ul li:nth-of-type(9),
+		.works ul li:nth-of-type(10),
+		.works ul li:nth-of-type(11),
+		.works ul li:nth-of-type(12),
+		.works ul li:nth-of-type(13),
+		.works ul li:nth-of-type(14),
+		.works ul li:nth-of-type(15),
+		.works ul li:nth-of-type(16),
+		.works ul li:nth-of-type(17),
+		.works ul li:nth-of-type(18),
+		.works ul li:nth-of-type(19),
+		.works ul li:nth-of-type(20){
+			display:none;
+		}
+	}
+	
+	@media screen and (min-width:380px) and (max-width:580px) {
+		.works h1 {
+			padding-right: 33%;
+			padding-top: 0;
+		}
+		.container-2 .works ul li {
+			width: 31%;
+			margin-left: 2%;
+			margin-bottom: 2%;
+		}
+		.container-2 .works ul li:hover .hidden-2,
+		.container-2 .works ul li:hover .hidden-2 h3 {
+			display: none;
+		}
+		.container-2 .works .button {
+			display: inline-block;
+			height: 40px;
+			float: right;
+			width: 50px;
+			bordeR: 1px solid #ccc;
+			color: #fff;
+			background: tan;
+			margin-right: 4%;
+		}
+		.container-2 .works .button:active {
+			background: darkorange;
+		}
+		.works ul li:nth-of-type(7),
+		.works ul li:nth-of-type(8),
+		.works ul li:nth-of-type(9),
+		.works ul li:nth-of-type(10),
+		.works ul li:nth-of-type(11),
+		.works ul li:nth-of-type(12),
+		.works ul li:nth-of-type(13),
+		.works ul li:nth-of-type(14),
+		.works ul li:nth-of-type(15),
+		.works ul li:nth-of-type(16),
+		.works ul li:nth-of-type(17),
+		.works ul li:nth-of-type(18),
+		.works ul li:nth-of-type(19),
+		.works ul li:nth-of-type(20){
+			display:none;
+		}
+	}
+	
+	@media screen and (max-width:380px) {
+		.works h1 {
+			padding-right: 33%;
+			padding-top: 0;
+		}
+		.works ul li {
+			width: 31.5%;
+			margin-left: 1.5%;
+			margin-bottom: 1.5%;
+		}
+		.works ul li:hover .hidden-2,
+		.works ul li:hover .hidden-2 h3 {
+			display: none;
+		}
+		.container-2 .works .button {
+			display: inline-block;
+			height: 40px;
+			float: right;
+			width: 50px;
+			bordeR: 1px solid #ccc;
+			color: #fff;
+			background: tan;
+			margin-right: 4%;
+		}
+		.container-2 .works .button:active {
+			background: darkorange;
+		}
+		.works ul li:nth-of-type(7),
+		.works ul li:nth-of-type(8),
+		.works ul li:nth-of-type(9),
+		.works ul li:nth-of-type(10),
+		.works ul li:nth-of-type(11),
+		.works ul li:nth-of-type(12),
+		.works ul li:nth-of-type(13),
+		.works ul li:nth-of-type(14),
+		.works ul li:nth-of-type(15),
+		.works ul li:nth-of-type(16),
+		.works ul li:nth-of-type(17),
+		.works ul li:nth-of-type(18),
+		.works ul li:nth-of-type(19),
+		.works ul li:nth-of-type(20){
+			display:none;
+		}
+	}
+	/*.works END*/
+	/*.star start*/
+	
+	@media screen and (min-width:1040px) and (max-width:1060px) {
+		.star .hidden-3 h3 {
+			padding-bottom: 22px;
+		}
+		.star .hidden-3 span {
+			padding-top: 33px;
+		}
+		.star ul li .hidden-3 {
+			height: 195px;
+		}
+	}
+	
+	@media screen and (min-width:1020px) and (max-width:1040px) {
+		.star ul li .hidden-3 {
+			height: 193px;
+		}
+		.star .hidden-3 span {
+			padding-top: 33px;
+		}
+	}
+	
+	@media screen and (min-width:1010px) and (max-width:1020px) {
+		.star ul li .hidden-3 {
+			height: 190px;
+		}
+		.star .hidden-3 span {
+			padding-top: 33px;
+		}
+	}
+	
+	@media screen and (min-width:1000px) and (max-width:1010px) {
+		.star ul li .hidden-3 {
+			height: 187px;
+		}
+		.star .hidden-3 span {
+			padding-top: 33px;
+		}
+	}
+	
+	@media screen and (min-width:800px) and (max-width:1000px) {
+		.star ul li {
+			width: 24%;
+			float: left;
+			position: relative;
+			margin-left: 1%;
+			margin-right: 0;
+			margin-bottom: 1%;
+		}
+		.star ul li:hover .hidden-3,
+		.star ul li:hover .hidden-3 h3 {
+			display: none;
+		}
+	}
+	
+	@media screen and (min-width:720px) and (max-width:800px) {
+		.container-2 .star ul li {
+			width: 23%;
+			float: left;
+			position: relative;
+			margin-bottom: 1.5%;
+			margin-right: 0;
+			margin-left: 1.5%;
+		}
+		.star ul li:hover .hidden-3,
+		.star ul li:hover .hidden-3 h3 {
+			display: none;
+		}
+	}
+	
+	@media screen and (min-width:580px) and (max-width:720px) {
+		.container-2 .star ul li {
+			width: 30.8355%;
+			float: left;
+			position: relative;
+			margin-bottom: 1.5%;
+			margin-right: 0;
+			margin-left: 1.5%;
+		}
+		.star ul li:hover .hidden-3,
+		.star ul li:hover .hidden-3 h3 {
+			display: none;
+		}
+		.container-2 .star .button {
+			display: inline-block;
+			height: 40px;
+			float: right;
+			width: 50px;
+			bordeR: 1px solid #ccc;
+			color: #fff;
+			background: tan;
+			margin-right: 4%;
+		}
+		.container-2 .star .button:active {
+			background: darkorange;
+		}
+		.star ul li:nth-of-type(7),
+		.star ul li:nth-of-type(8),
+		.star ul li:nth-of-type(9),
+		.star ul li:nth-of-type(10),
+		.star ul li:nth-of-type(11),
+		.star ul li:nth-of-type(12),
+		.star ul li:nth-of-type(13),
+		.star ul li:nth-of-type(14),
+		.star ul li:nth-of-type(15),
+		.star ul li:nth-of-type(16),
+		.star ul li:nth-of-type(17),
+		.star ul li:nth-of-type(18),
+		.star ul li:nth-of-type(19),
+		.star ul li:nth-of-type(20){
+			display:none;
+		}
+	}
+	
+	@media screen and (min-width:380px) and (max-width:580px) {
+		.container-2 .star ul li {
+			width: 30%;
+			float: left;
+			margin-left: 2%;
+			margin-bottom: 2%;
+			margin-right: 0;
+			position: relative;
+		}
+		.star ul li:hover .hidden-3,
+		.star ul li:hover .hidden-3 h3 {
+			display: none;
+		}
+		.container-2 .star .button {
+			display: inline-block;
+			height: 40px;
+			float: right;
+			width: 50px;
+			bordeR: 1px solid #ccc;
+			color: #fff;
+			background: tan;
+			margin-right: 4%;
+		}
+		.container-2 .star .button:active {
+			background: darkorange;
+		}
+		.star ul li:nth-of-type(7),
+		.star ul li:nth-of-type(8),
+		.star ul li:nth-of-type(9),
+		.star ul li:nth-of-type(10),
+		.star ul li:nth-of-type(11),
+		.star ul li:nth-of-type(12),
+		.star ul li:nth-of-type(13),
+		.star ul li:nth-of-type(14),
+		.star ul li:nth-of-type(15),
+		.star ul li:nth-of-type(16),
+		.star ul li:nth-of-type(17),
+		.star ul li:nth-of-type(18),
+		.star ul li:nth-of-type(19),
+		.star ul li:nth-of-type(20){
+			display:none;
+		}
+	}
+	
+	@media screen and (max-width:380px) {
+		.star ul li {
+			width: 31%;
+			float: left;
+			position: relative;
+			margin-left: 2%;
+			margin-right: 0;
+			margin-bottom: 2%;
+		}
+		.star ul li:hover .hidden-3,
+		.star ul li:hover .hidden-3 h3 {
+			display: none;
+		}
+		.container-2 .star .button {
+			display: inline-block;
+			height: 40px;
+			float: right;
+			width: 50px;
+			bordeR: 1px solid #ccc;
+			color: #fff;
+			background: tan;
+			margin-right: 4%;
+		}
+		.container-2 .star .button:active {
+			background: darkorange;
+		}
+		.star ul li:nth-of-type(7),
+		.star ul li:nth-of-type(8),
+		.star ul li:nth-of-type(9),
+		.star ul li:nth-of-type(10),
+		.star ul li:nth-of-type(11),
+		.star ul li:nth-of-type(12),
+		.star ul li:nth-of-type(13),
+		.star ul li:nth-of-type(14),
+		.star ul li:nth-of-type(15),
+		.star ul li:nth-of-type(16),
+		.star ul li:nth-of-type(17),
+		.star ul li:nth-of-type(18),
+		.star ul li:nth-of-type(19),
+		.star ul li:nth-of-type(20){
+			display:none;
+		}
+	}
+	/*star END*/
+	/*word start*/
+	
+	@media screen and (min-width:880px) and (max-width:1040px) {
+		.word ul li {
+			width: 15%;
+			margin-right: 1%;
+			margin-bottom: 1%;
+		}
+	}
+	
+	@media screen and (min-width:680px) and (max-width:880px) {
+		.word ul li {
+			width: 31%;
+			margin-right: 1%;
+			margin-bottom: 1%;
+		}
+	}
+	
+	@media screen and (min-width:380px) and (max-width:680px) {
+		.word ul li {
+			width: 30%;
+			margin-right: 1%;
+			margin-bottom: 1%;
+		}
+	}
+	
+	@media screen and (max-width:380px) {
+		.word ul li {
+			width: 30%;
+			margin-right: 1%;
+			margin-bottom: 1%;
+		}
+	}
+	/*word END*/

@@ -1,0 +1,14 @@
+.container-2 {width: 100%; margin-top:120px;}
+header .header nav li:nth-of-type(2){background:#5c5c5c;}
+.banner{max-width:1000px; margin:0 auto;}
+.banner article{float:left; width:265px; border-right:1px solid #bbb;}
+article li{height:80px; line-height:80px; width:250px; border-bottom:3px solid #fff;}
+article li:nth-of-type(1){background:url(../images-xygk/xyjk_2.jpg) no-repeat 20px center; background-size:16%;}
+article li:nth-of-type(2){background:url(../images-xygk/xyjk_1.jpg) no-repeat 20px center; background-size:16%;border-bottom:3px solid #fa9634;}
+article li:nth-of-type(1):hover{background:url(../images-xygk/xyjk_3.jpg) no-repeat 20px center; border-bottom:3px solid #fa9634;background-size:16%;}
+/*article li:nth-of-type(2):hover{background:url(../images-xygk/xyjk_1.jpg) no-repeat 20px center;border-bottom:3px solid #fa9634;background-size:16%;}*/
+
+article li a{padding-left:90px; display:block; font-size:22px; color:#222;}
+section{width:669px; margin-left:50px; float:left; padding-bottom:100px;}
+section h2{font-size:18px; color:#fa9634;font-weight: bold;}
+section p{font-size:16px; line-height:28px; color:#222222;}
